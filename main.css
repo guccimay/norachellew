@@ -269,9 +269,9 @@ div#rodeo {
 }
 
 div#tooth {
-    -ms-transform: matrix(1, -0.5, 5, 0, 0, 150); /* IE 9 */
-    -webkit-transform: matrix(1, -0.5, 0, 1, 0, -150); /* Safari */
-    transform: matrix(1, -0.5, 0, 1, 0, -150); /* Standard syntax */
+    -ms-transform: matrix(1, -0.2, 5, 0, 0, 150); /* IE 9 */
+    -webkit-transform: matrix(1, -0.2, 0, 1, 0, 150); /* Safari */
+    transform: matrix(1, -0.2, 0, 1, 0, 150); /* Standard syntax */
     width: 25%;
     height: 50%;
     background-color: #ffd3f9;
