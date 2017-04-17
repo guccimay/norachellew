@@ -269,15 +269,15 @@ div#rodeo {
 }
 
 div#tooth {
-    -ms-transform: matrix(1, -0.2, 5, 0, 0, 150); /* IE 9 */
-    -webkit-transform: matrix(1, -0.2, 0, 1, 0, 150); /* Safari */
-    transform: matrix(1, -0.2, 0, 1, 0, 150); /* Standard syntax */
+    -ms-transform: matrix(1, -0.2, 5, 0, 0, -400); /* IE 9 */
+    -webkit-transform: matrix(1, -0.2, 0, 1, 0, -400); /* Safari */
+    transform: matrix(1, -0.2, 0, 1, 0, -400); /* Standard syntax */
     width: 25%;
     height: 50%;
     background-color: #ffd3f9;
     border: 1px solid black;
     padding: 45px;
-    margin-left: 30%;
+    margin-left: 60%;
     text-align: center;
 }
 
