@@ -268,6 +268,19 @@ div#rodeo {
     text-align: center;
 }
 
+div#tooth {
+    -ms-transform: matrix(1, -0.5, 5, 0, 0, 150); /* IE 9 */
+    -webkit-transform: matrix(1, -0.5, 0, 1, 0, -150); /* Safari */
+    transform: matrix(1, -0.5, 0, 1, 0, -150); /* Standard syntax */
+    width: 25%;
+    height: 50%;
+    background-color: #ffd3f9;
+    border: 1px solid black;
+    padding: 45px;
+    margin-left: 30%;
+    text-align: center;
+}
+
 /* for work pages */
 
 section{
