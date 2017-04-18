@@ -170,7 +170,7 @@ z-index: 1;}
   margin-top: 30%;
 	background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, pink 0%, white 20%, red 10%);
 	background-image: -webkit-radial-gradient(45px 45px, circle cover, pink,white );
-	background-image: radial-gradient(45px 45px 45deg, circle cover, pink 0%, white80%, red 95%);
+	background-image: radial-gradient(45px 45px 45deg, circle cover, pink 0%, white 80%, red 95%);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.2);
@@ -269,15 +269,15 @@ div#rodeo {
 }
 
 div#tooth {
-    -ms-transform: matrix(1, -0.2, 5, 0, 0, -200); /* IE 9 */
-    -webkit-transform: matrix(1, -0.2, 0, 1, 0, -200); /* Safari */
-    transform: matrix(1, -0.2, 0, 1, 0, -200); /* Standard syntax */
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 100); /* IE 9 */
+    -webkit-transform: matrix(1, -0.3, 0, 1, 0, 100); /* Safari */
+    transform: matrix(1, -0.3, 0, 1, 0, 100); /* Standard syntax */
     width: 25%;
     height: 50%;
     background-color: #ffd3f9;
     border: 1px solid black;
     padding: 45px;
-    margin-left: 50%;
+    margin-left: 20%;
     text-align: center;
 }
 
