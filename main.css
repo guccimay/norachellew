@@ -14,6 +14,7 @@ background-color: white;
 font-size: 24px;
 }
 
+
 #nav {
 font-family: 'Raleway500', sans-serif;
 color: black;
@@ -22,7 +23,6 @@ text-align: center;
 float: center;
 font-size: 16px;
 list-style: none;
-margin-top: 5%;
 margin-left: 25%;
 display: inline;
 padding: 8px;
@@ -314,5 +314,91 @@ a:nth-of-type(2n) {
 
    a { font-size: 16px; }
    p { font-size: 16px; }
+
+}
+
+@media only screen and (max-width: 760px) {
+
+  div#taupe {
+    -ms-transform: matrix(0, 0, 0.5, 1, 300, 0); /* IE 9 */
+    -webkit-transform: matrix(1, 0, 0.5, 1, 300, 0); /* Safari */
+    transform: matrix(1, 0, 0.6, 1, 300, 0); /* Standard syntax */
+    width: 20%;
+    height: 50%;
+      background-color: #ffd3f9;
+      border: 1px solid black;
+      padding: 45px;
+      margin-left: -40%;
+      margin-top: 10%;
+      text-align: center;
+  }
+
+  div#ponyboi {
+      -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+      -webkit-transform: matrix(1, -0.3, 0, 1, 0, 0); /* Safari */
+      transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+      width: 20%;
+      height: 50%;
+      background-color: #ffd3f9;
+      border: 1px solid black;
+      padding: 45px;
+      text-align: center;
+  }
+
+  div#agnesmartin {
+      -ms-transform: matrix(1, 0, 0.5, 1, 150, 0); /* IE 9 */
+      -webkit-transform: matrix(1, 0, 0.5, 1, 150, 0); /* Safari */
+      transform: matrix(1, 0, 0.5, 1, 150, 0); /* Standard syntax */
+      width: 20%;
+      height: 50%;
+      background-color: #ffd3f9;
+      border: 1px solid black;
+      padding: 45px;
+      margin-top: 20%;
+      margin-left: -40%;
+      text-align: center;
+  }
+
+  div#wetgirls {
+      -ms-transform: matrix(1, -0.0, 0, 1, 0, -380); /* IE 9 */
+      -webkit-transform: matrix(1, -0.0, 0, 1, 0, -380); /* Safari */
+      transform: matrix(1, -0.0, 0, 1, 0, -380); /* Standard syntax */
+      width: 20%;
+      height: 50%;
+      background-color: #ffd3f9;
+      border: 1px solid black;
+      padding: 45px;
+      margin-left: 45%;
+      margin-top: 45%;
+      text-align: center;
+  }
+
+  div#rodeo {
+      -ms-transform: matrix(1, -0.2, 5, 0, 0, -400); /* IE 9 */
+      -webkit-transform: matrix(1, -0.2, 0, 1, 0, -400); /* Safari */
+      transform: matrix(1, -0.2, 0, 1, 0, -400); /* Standard syntax */
+      width: 20%;
+      height: 50%;
+      background-color: #ffd3f9;
+      border: 1px solid black;
+      padding: 45px;
+      margin-left: 60%;
+      margin-top: 30%;
+      text-align: center;
+  }
+
+  div#tooth {
+      -ms-transform: matrix(1, -0.2, 5, 0, 0, -400); /* IE 9 */
+      -webkit-transform: matrix(1, -0.2, 0, 1, 0, -400); /* Safari */
+      transform: matrix(1, -0.2, 0, 1, 0, -400); /* Standard syntax */
+      width: 20%;
+      height: 50%;
+      background-color: #ffd3f9;
+      border: 1px solid black;
+      padding: 45px;
+      margin-left: 5%;
+      margin-top: 0;
+      text-align: center;
+  }
 
 }
